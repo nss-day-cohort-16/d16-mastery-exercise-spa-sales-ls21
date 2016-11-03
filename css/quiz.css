@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+}
+.styled {
+	border: solid black 2px;
+	background-color: purple;
+	color:white;
+	text-align: center;
+}
+ .make {
+ 	text-transform: uppercase;
+
+ }
+
+ .description {
+ 	font-style: italic;
+ 	font-style: italic;
+ 	font-weight: 550;
+ }
+
+ .price{
+  font-weight: bolder;
+ }
+
+ .thickBorder {
+ 	border: solid black 10px;
+ 	background-color: tan;
+ }

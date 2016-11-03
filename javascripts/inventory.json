@@ -1,0 +1,27 @@
+{
+  "cars": [
+    {
+      "make": "Jeep",
+      "model": "Liberty",
+      "year": "2002",
+      "price": "5800",
+      "description": "Leather seats, power everything, well kept with only 103,000 miles."
+    },
+
+    {
+    	"make": "Chrystler",
+    	"model": "Lebaron",
+    	"year": "1988",
+    	"price": "3200",
+    	"description": "A convertible classic for the collector. Needs absolutely nothing other than a driver."
+    },
+
+    {
+    	"make": "Toyota",
+    	"model": "Camry",
+    	"year": "1999",
+    	"price": "2800",
+    	"description": "This one runs and shifts smoothly, is in immaculate condition, and is priced to sell."
+    }
+  ]
+}
