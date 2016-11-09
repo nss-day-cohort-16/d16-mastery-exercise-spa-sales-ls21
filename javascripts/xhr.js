@@ -1,3 +1,4 @@
+"use strict";
 var CarData = (function(random){
 	var returnedData = [];
 

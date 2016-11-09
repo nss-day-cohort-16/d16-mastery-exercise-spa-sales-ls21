@@ -1,4 +1,4 @@
-
+"use strict";
 var CarData = (function(oldCarData){
 
 		oldCarData.resetBorder = function(clickedOnElement) {
