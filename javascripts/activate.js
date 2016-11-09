@@ -1,3 +1,4 @@
+"use strict";
 var CarData = (function(oldCarData){
 
 		oldCarData.activateEvents = function(random) {
@@ -6,10 +7,10 @@ var CarData = (function(oldCarData){
 				divArray[j].addEventListener('click', addBorder);
 			}
 			function addBorder() {
-				if (event.target.className === "col-sm-4 styled"){
-				CarData.changeBorder(event.target);
+				if (event.currentTarget.className === "col-sm-4 styled"){
+				CarData.changeBorder(event.currentTarget);
 				}
-				else if (event.target.className === "col-sm-4 styled thickBorder"){
+				else if (event.currentTarget.className === "col-sm-4 styled thickBorder"){
 					CarData.resetBorder(event.currentTarget);
 				}
 				addText();
