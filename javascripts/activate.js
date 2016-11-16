@@ -16,20 +16,14 @@ var CarData = (function(oldCarData){
 				addText();
 			}
 			function addText () {
-				var carDivElements = document.getElementsByClassName("description");
-				for (var z = 0; z < carDivElements.length; z++){
-					carDivElements[z].addEventListener("click", changeText)
+				document.getElementById("input").focus();
+				if(event.target.className === "description"){
+					changeDescription(event.target);
+				} else if(event.target.className !== "description"){
+					let spot = event.target.parentNode.childNodes[1];
+					changeDescription(spot);
 				}
-				changeText();
 			}
-				function changeText() {
-					document.getElementById("input").value = " ";
-					document.getElementById('input').focus();
-					if(event.target.className === "description"){
-						changeDescription(event.target);
-					};
-				}
-
 				function changeDescription (spot) {
 				document.getElementById('input').addEventListener('keydown', write);
 				function write() {

@@ -6,7 +6,7 @@ var CarData = (function(oldCarData){
 		for (var i = 0; i < returnedData.length; i++){
 			var newDiv = document.createElement("div");
 			newDiv.classList = "col-sm-4 styled";
-			divString = "<p class='make'>" + returnedData[i].year +  " " + returnedData[i].make + " " + returnedData[i].model + "<p class='description' id='" + i + "'>" + returnedData[i].description + "<p class='price'>" + returnedData[i].price + " " + "Dollars" + "</p>";
+			divString = "<p class='make'>" + returnedData[i].year +  " " + returnedData[i].make + " " + returnedData[i].model + "<p class='description' id='" + i + "'>" + returnedData[i].description + "</p>" + "<p class='price'>" + returnedData[i].price + " " + "Dollars" + "</p>";
 			newDiv.innerHTML = divString;
 			document.getElementById("outputDiv").appendChild(newDiv);
 		}
